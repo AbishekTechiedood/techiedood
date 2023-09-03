@@ -67,6 +67,12 @@ padding-bottom: 56px;
 
 }
 
+.content p{
+
+ font-family: monospace;
+ font-size: 1rem;
+transition: 5ms;
+}
 
 .content .btn{
     margin: 1rem 0.2rem;
