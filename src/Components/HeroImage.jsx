@@ -11,7 +11,8 @@ const HeroImage = () => {
      <div className='mask'>
        <img className='intro-img' src={HeroImg} alt='HeroImg'/>
          <div className='content'>
-         <div className='p'> <p>Hello all.!.,this is Abhi</p> </div>
+         <p>Hello all, this is Abhi..!</p>
+         <div className='p'></div>
           <h1>React Devoloper</h1>
            <div id='btns'>
               <Link to='/project' className='btn'>Projects</Link>
