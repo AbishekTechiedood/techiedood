@@ -18,7 +18,7 @@ const HeroImage = () => {
      <div className='mask'>
        <img className='intro-img' src={HeroImg} alt='HeroImg'/>
          <div className='content'>
-         <p>Hello all, this is {text} ..!<Cursor cursorStyle= "|"/></p>
+         <p>Hello all, this is  {text}  ..!<Cursor cursorStyle= "|"/></p>
          <div className='p'></div>
           <h1>React Devoloper</h1>
            <div id='btns'>
