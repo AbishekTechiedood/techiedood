@@ -1,17 +1,24 @@
 import React from 'react'
+import {useTypewriter , Cursor} from 'react-simple-typewriter'
 import '../Components/HeroimageStyle.css'
 import HeroImg from '../Images/heropage.png'
 import { Link } from 'react-router-dom'
 
 
 const HeroImage = () => {
+    const[text] = useTypewriter({
+    words: ['Abishek'],
+    loop:{},
+    typeSpeed:50,
+  })
+
   return (
 
     <div className='hero'>
      <div className='mask'>
        <img className='intro-img' src={HeroImg} alt='HeroImg'/>
          <div className='content'>
-         <p>Hello all, this is Abhi..!</p>
+         <p>Hello all, this is {text} ..!<Cursor cursorStyle= "|"/></p>
          <div className='p'></div>
           <h1>React Devoloper</h1>
            <div id='btns'>
